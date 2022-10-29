@@ -1,4 +1,10 @@
 ul {
+
+    box-sizing: border-box;
+  }
+
+
+
 /* Style the header */
 .header {
   background: rgb(196, 191, 191);
@@ -29,3 +35,9 @@ ul {
   background-color: rgb(196, 191, 191);
   color: black;
 }
+
+<div class="topnav">
+  <a href="#">binairstelsel</a>
+  <a href="#">kleurmodellen</a>
+  <a href="#">bitmap,vectorafbeeldingen en opslag van geluid</a>
+</div>
