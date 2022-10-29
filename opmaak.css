@@ -1,27 +1,47 @@
 
+ul{
+  box-sizing: border-box;
+}
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+
 body {
   margin: 0;
 }
 
-/* Style the header */
-<title> Homepagina van Amira</title>{
-  background-color:#9fb897;
+
+/* Stijlen van de bovenkant waar de titel staat */
+.header {
+  background-color: #d0d8d3;
   padding: 20px;
   text-align: center;
+  color:rgb(205, 231, 195)
 }
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1>Header</h1>
-</div>
- 
 
 
+li {
+  margin: 0;
+}
 
+
+  /* Stijlen van de bovenkant van het menu */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(48, 45, 45, 0.808);
+}
+
+/* Stijlen van de plaats en de kleur van het menu */
+.topnav a {
+  float: left;
+  display: block;
+  color:  #d0d8d3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
