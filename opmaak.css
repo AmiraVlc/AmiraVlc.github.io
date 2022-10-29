@@ -45,3 +45,63 @@ li {
   color: black;
 }
 
+
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #e8ece9;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(165, 216, 186);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #e8ece9 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(165, 216, 186);
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Header</h1>
+</div>
+
+<div class="topnav">
+<li><a href="index.html">Home<a></li>
+<li><a href="binairstelsel.html">binairstelsel</a></li>
+<li><a href="kleurmodellen.html">kleurmodellen</a></li>
+<li><a href="bitmap,vectorafbeeldingen en opslag van geluid.html"> bitmapafbeelding, vectorafbeelding en opslag van geluid</a></li>
+</div>
