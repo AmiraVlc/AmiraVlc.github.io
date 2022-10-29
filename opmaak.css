@@ -1,27 +1,27 @@
 
 <style>
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-
+body {
+  margin: 0;
+}
 
 /* Style the header */
 .header {
-  background: rgb(196, 191, 191);
+  background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
 }
 
-
-
-/* The navbar container */
+/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: rgb(160, 202, 149);
+  background-color: #333;
 }
 
-/* Navbar links */
+/* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
@@ -31,18 +31,11 @@
   text-decoration: none;
 }
 
-/* Links - change color on hover */
+/* Change color on hover */
 .topnav a:hover {
-  background-color: rgb(196, 191, 191);
+  background-color: #ddd;
   color: black;
 }
-
-<div class="topnav">
-  <a href="#">binairstelsel</a>
-  <a href="#">kleurmodellen</a>
-  <a href="#">bitmap,vectorafbeeldingen en opslag van geluid</a>
-</div>
-
 </style>
 </head>
 <body>
@@ -50,3 +43,13 @@
 <div class="header">
   <h1>Header</h1>
 </div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+</body>
+</html>
+
