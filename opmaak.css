@@ -26,45 +26,20 @@ ul{box-sizing: border-box;
   background-color:rgb(181, 223, 191);
   float: left;
   display: block;
+}
+
+
+
+li{ float: left;}
+
+
+li a{display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-style: italic;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ul{ box-sizing: border-box;
-  overflow: hidden;
-  background-color:rgb(181, 223, 191);
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-
 }
-
-
-
 
 
 h2{font-style: italic;
