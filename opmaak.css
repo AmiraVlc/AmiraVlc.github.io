@@ -1,6 +1,11 @@
 
-body {
-  background-color: red;
+head{box-sizing: border-box;
+     margin: 0;
+     background-color: #ccc8c8;
+     padding: 20px;
+     text-align: center;
+     text-decoration: rgb(181, 223, 191);
 }
+
 
 
