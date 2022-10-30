@@ -1,7 +1,7 @@
 
 
 
-head{box-sizing: border-box;
+title{box-sizing: border-box;
      margin: 0;
      background-color: #ccc8c8;
      padding: 20px;
@@ -14,8 +14,8 @@ head{box-sizing: border-box;
 h1{box-sizing: border-box;
   margin: 0;
   background-color: #000000;
-  padding: 5px;
-  font-size: 10px;
+  padding: 10px;
+  font-size: 15px;
   text-align: center;
   color:  rgb(238, 255, 242);
 }
