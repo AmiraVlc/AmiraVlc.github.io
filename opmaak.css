@@ -22,10 +22,13 @@ h1{box-sizing: border-box;
 
 
 ul{box-sizing: border-box;
-  background-color:rgb(181, 223, 191);
-  display: block;
+  margin: 0;
+  background-color: #80d3a0;
+  padding: 25px;
+  font-size: 15px;
+  text-align: center;
+  color:  rgb(238, 255, 242);
 }
-
 
 
 li{ float: left;}
