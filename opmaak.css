@@ -76,3 +76,11 @@ h3{font-style: italic;
     float: left;
     width: 33.33%;
     padding: 15px;}
+
+
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
