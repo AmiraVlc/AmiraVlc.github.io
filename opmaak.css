@@ -7,7 +7,7 @@ header{box-sizing: border-box;
      padding: 30px;
      font-size: 20px
      text-align: center;
-     color: #80d3a0;
+     color:  rgb(121, 161, 130)
 }
 
 
@@ -86,8 +86,7 @@ h3{font-style: bold;
     padding: 15px;
     font-size: 40px;
   }
-    font-size: 40px;
-
+  
 
 
 
@@ -100,5 +99,5 @@ h3{font-style: bold;
   padding: 20px;
   font-size: 15px;
   text-align: center;
-  color:  rgb(238, 255, 242);
+  color:  rgb(121, 161, 130);
     }
