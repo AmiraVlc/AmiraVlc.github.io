@@ -17,32 +17,36 @@ h1{box-sizing: border-box;
   padding: 20px;
   font-size: 15px;
   text-align: center;
-  color:  rgb(238, 255, 242);
+  color: rgb(116, 163, 130);
 }
 
 
-
-ul{box-sizing: border-box;
+ul {
+  list-style-type: none;
   margin: 0;
-  background-color: #80d3a0;
-  padding: 25px;
-  font-size: 15px;
-  text-align: center;
-  color:  rgb(0, 0, 0);
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(116, 163, 130);
 }
 
-
-li{ float: left;}
-
-
-li a{
+li {
   float: left;
+}
+
+li a {
   display: block;
-  color: #f2f2f2;
+  color: rgb(255, 255, 255);
   text-align: center;
-  padding: 30px 16px;
-  font-style: italic;
+  padding: 14px 16px;
   text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(160, 153, 153);
+}
+
+.active {
+  background-color: #46634e;
 }
 
 
