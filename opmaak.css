@@ -63,23 +63,24 @@ p{text-align: left;
 
 
 
-h2{font-style: bold;
+h2{font-style: italic;
   font-family: Georgia;
-  text-align: left;
+  text-align: center;
   float: left;
-  padding: px;
-  font-size: 40px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 
 
 
-h3{font-style: bold;
-  text-align: left;
-  float: left;
+
+h3{font-style: italic;
   font-family: Georgia;
-  padding: 25px;
-  font-size: 40px;
+  text-align: center;
+  float: left;
+  padding: 20px;
+  font-size: 30px;
 }
   
 
@@ -100,7 +101,7 @@ h3{font-style: bold;
     text-align: center;
     float: left;
     padding: 15px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
 
