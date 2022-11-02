@@ -15,7 +15,7 @@ h1{box-sizing: border-box;
   margin: 0;
   background-color: #000000;
   padding: 20px;
-  font-size: 15px;
+  font-size: 40px;
   text-align: center;
   color: rgb(116, 163, 130);
 }
@@ -51,7 +51,7 @@ li a:hover:not(.active) {
 
 p{text-align: left;
   font-family: Verdana;
-  padding: 15px;
+  padding: 20px;
   content: "";
   display: table;
   clear: both;
@@ -67,7 +67,7 @@ h2{font-style: bold;
   font-family: Georgia;
   text-align: left;
   float: left;
-  padding: 15px;
+  padding: px;
   font-size: 40px;
 }
 
@@ -90,8 +90,8 @@ h3{font-style: bold;
     font-family: Georgia;
     text-align: center;
     float: left;
-    padding: 15px;
-    font-size: 40px;
+    padding: 20px;
+    font-size: 30px;
   }
   
 
