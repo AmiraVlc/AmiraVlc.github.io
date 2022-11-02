@@ -49,6 +49,19 @@ li a:hover:not(.active) {
   background-color: #46634e;
 }
 
+p{text-align: left;
+  font-family: Verdana;
+  padding: 15px;
+  content: "";
+  display: table;
+  clear: both;
+  font-size: 30px;
+  
+}
+
+
+
+
 
 h2{font-style: bold;
   font-family: Georgia;
@@ -59,16 +72,6 @@ h2{font-style: bold;
 }
 
 
-
-p{text-align: left;
-  font-family: Verdana;
-  padding: 15px;
-  content: "";
-  display: table;
-  clear: both;
-  font-size: 30px;
-  
-}
 
 
 h3{font-style: bold;
@@ -92,7 +95,13 @@ h3{font-style: bold;
   }
   
 
-
+  h5{font-style: italic;
+    font-family: Georgia;
+    text-align: center;
+    float: left;
+    padding: 15px;
+    font-size: 40px;
+  }
 
 
 
