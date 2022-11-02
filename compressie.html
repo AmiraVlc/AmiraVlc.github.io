@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!--dit is de pagina met uitleg over bitmapafbeelding,vectorafbeeldingen en opslag van geluid-->
+<!DOCTYPE html> <!--dit is de pagina met uitleg over compressies-->
 <html> <!--dit is het htm-element-->
         <head>
          <link rel="stylesheet" type="text/css" href="opmaak.css">
@@ -23,7 +23,7 @@
   <li><a href="binairstelsel.html">binairstelsel</a></li>
   <li><a href="kleurmodellen.html">kleurmodellen</a></li>
   <li><a href="bitmap,vectorafbeeldingen en opslag van geluid.html"> bitmapafbeelding, vectorafbeelding en opslag van geluid</a></li>
-
+  <li><a href="compressie.html">compressie<a></li>
    </ul>
 
 
@@ -44,11 +44,12 @@
 
 
 <!-- In deze alinea leg ik uit wat Lossy compressie is-->
-<h3>Wat is Lossy compressie</h3>
+<h3>Wat is Lossy compressie?</h3>
 <p> Zodra er een afbeelding of een video wordt gedownload of opgeslagen dan hebben we te maken met Lossy compressie. 
     Lossy compressie zorgt ervoor dat de informatie van het orginale bestand wordt verwijderd zodat de omvang van het bestand kleiner wordt. 
     Veel gebruikte compressie-methode die bij afbeeldingen wordt gebruikt is JPEG ookwel JPG genoemd. 
     JPEG staat voor een bestandsindeling voor het opslaan van rasterafbeeldingen in een digitale vorm.
+    Bij de lossy compressie is het onmogelijk om het orginele bestand weer terug te halen, omdat er informatie is verwijderd. 
     Op de computer kan je zelf ervoor kiezen om Lossy compressie te gebruiken, maar jouw telefoon past dat automatisch toe bij gemaakte foto's.
     Hierbij wordt dus de kwaliteit van de afbeelding of video beinvloedt. 
 </p>
@@ -57,27 +58,38 @@
   
    
 
-
-
 <!--Hieronder staat een code die ik heb gebruikt om een afbeelding van van een lossy compressie te laten zien-->
 <img src="bitmap vs vector.png" alt=" Verschil tussen een bitmapafbeelding en een vectorafbeelding">
 
 
 
 <!--Hieronde leg ik uit wat Lossless compressie is  -->
-<h4>Opslag van geluid</h4>
-<p> Geluid bestaat uit trillingen in de lucht. 
-   Het omzetten bij een microfoon vindt plaats door de trillingen in een elektrisch signaal om te zetten.
-   Doordat de computer geen trillingen kan opslaan betekent dat de trillingen moeten worden omgezet in een patroon van digitale waarden 'nullen en eenen'.
-   Het signaal omzetten van trillingen naar die digitale waarden wordt samplen genoemd. 
-   Bij samplen wordt er gekeken naar een vast moment waar het geluid het sterkst is. 
-   Daar wordt dan een meting van gemaakt en zo in een grafiek weergegeven.
-   Bij zo een grafiek is elk punt een sample en kan het binair worden opgeslagen. 
-   Het aantal samples per seconde wordt sample rate genoemd. 
-   Bij muziek is het zo dat de sample rate rond de 44,1 KHz wordt opgenomen. 
+<h4>Wat is Lossless compressie?</h4>
+<p> Bij Lossless compressie is het zo dat de informatie van de gedownloade of opgeslagen, video of afbeelding, niet wordt veranderd. 
+    Hierbij wordt de informatie dus niet verwijderd en dus zal de orginale kwaliteit niet worden beinvloedt.
+    Het gebruik van de Lossless compressie wordt vooral gebruikt bij kleinere bestanden. 
+    Bij de lossless compressie is het wel mogelijk om het orginele bestand weer terug te halen. 
+    Zodra er een gemaakte foto wordt verstuurd is het meestal zo dat de ontvanger van de foto, de foto waziger ontvang dan dat die daadwerklijk is. 
+    Dit komt doordat de compressie op jou apparaat is toegepast en niet op die van de ontvanger. 
+
 </p>
 
 
+<!--Hieronde leg ik uit wat compressie bij geluidsfragmenten is  -->
+<h5>Compressie bij geluidsfragmenten?</h5>
+<p> De compressie bij geluidsfragmenten is anders dan die bij video's of afbeeldingen.
+    Een van de meest bekendste compressie-methode voor muziek is MP3.
+    MP3 is een Lossy compressie en zorgt ervoor dat er informatie wordt verwijderd van de muziek zonder dat wij dit door heben. 
+    Hierdoor kunnen de muziek makkelijk worden opgeslagen zonder dat er veel opslag en ruimte wordt verbruikt.
+    Bij het comprimeren met MP3 worden de tonen die hoger zijn dan 16kHZ verwijderd. 
+    Sample rate bij muziek is erg belangrijk. 
+    Sample rate houdt in dat  van een digitaal signaal wordt vergelijken hoeveel pixels in het geluidsfragment zitten.
+    Hierbij is het belangrijk dat het aantal bites ook wordt opgeslagen.
+    Sample rate vermenigvuldigd met het aantal bites zorgt voor bitrate van de muziek. 
+    Bitrate is de de snelheid van informatieoverdrachten.
+    Dit zorgt ervoor dat er veel geluidsfragmenten kunnen worden opgeslagen zonder dat dit te veel opslag of ruimte inneemt. 
+
+</p>
 
 
 
