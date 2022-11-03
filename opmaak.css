@@ -52,10 +52,11 @@ li a:hover:not(.active) {
 p{text-align: left;
   font-family: Verdana;
   padding: 20px;
-  content: "";
   display: table;
   clear: both;
   font-size: 20px;
+  line-height: 1.4;
+  
   
 }
 
