@@ -7,7 +7,7 @@ header{box-sizing: border-box;
      padding: 30px;
      font-size: 20px;
      text-align: center;
-     color:  rgb(121, 161, 130)
+     color:  rgb(121, 161, 130);
 }
 
 
@@ -120,7 +120,7 @@ h3{font-style: italic;
 
   
   a:link, a:visited {
-    background-color: #299641;
+    background-color:  rgb(121, 161, 130);
     color: white;
     padding: 14px 25px;
     text-align: center;
