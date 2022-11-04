@@ -144,5 +144,8 @@ img {
     border-width: 10px;
     border-color: rgb(255, 255, 255);
     display:block;
-    margin;0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
 }
