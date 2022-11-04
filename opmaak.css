@@ -200,13 +200,14 @@ font-family= het soort lettertype. Dat het 2e blok aan de bovenkant van mijn pag
 
   
 
+
+
   #lomp{
-    background-color: rgb(137, 197, 134);
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-    text-align:right;
+    color: white;
+    text-align: right;
+    padding: 60px;
+    font-size: 40px;
+
   }
 
 
