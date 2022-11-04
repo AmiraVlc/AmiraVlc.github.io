@@ -141,7 +141,7 @@ h3{font-style: italic;
 
   center {
     display: block;
-    margin-left: auto;
+    margin-left: 100%;
     width: 50%;
   }
   
