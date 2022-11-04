@@ -1,5 +1,10 @@
 
-/*Hieronder staat een code voor de header, dit zorgt ervoor dat de grootte door middel van padding= */
+/*Hieronder staat een code voor de header, dit zorgt ervoor dat de grootte door middel van 
+padding= de ruimte tussen de inhoud en de rand
+margin=gebruikt om ruimte rond elementen te creëren, buiten gedefinieerde randen
+box-sizing= hoe de box eruit komt te zien
+text-align=waar de text komt te staan
+font-style= het soort lettertype*/
 header{box-sizing: border-box;
      margin: 0;
      background-color: #ccc8c8;
@@ -10,6 +15,14 @@ header{box-sizing: border-box;
 }
 
 
+
+/*Hieronder staat een code voor H1, dit zorgt ervoor dat de grootte door middel van 
+padding= de ruimte tussen de inhoud en de rand
+font-size= groote van de text
+margin=gebruikt om ruimte rond elementen te creëren, buiten gedefinieerde randen
+box-sizing= hoe de box eruit komt te zien
+text-align=waar de text komt te staan
+font-style= het soort lettertype*/
 h1{box-sizing: border-box;
   margin: 0;
   background-color: #000000;
@@ -20,6 +33,10 @@ h1{box-sizing: border-box;
 }
 
 
+/*Hieronder staat een code voor ul, dit zorgt ervoor dat de grootte door middel van 
+padding= de ruimte tussen de inhoud en de rand
+margin=gebruikt om ruimte rond elementen te creëren, buiten gedefinieerde randen
+overflow=geeft aan of de inhoud moet worden geknipt of schuifbalken moeten worden toegevoegd wanneer de inhoud van een element te groot is om in het opgegeven gebied te passen*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -28,6 +45,8 @@ ul {
   background-color: rgb(116, 163, 130);
 }
 
+
+/*Hieronder staat een code voor de li, dit zorgt plaatst een element aan de linker- of rechterkant van de container, zodat tekst en inline-elementen eromheen kunnen worden gewikkeld.*/
 li {
   float: left;
 }
