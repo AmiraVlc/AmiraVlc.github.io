@@ -115,9 +115,14 @@ h3{font-style: italic;
   }
 
   
-
-
-
+  #lomp{
+    background-color: rgb(137, 197, 134);
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    text-align:right;
+  }
 
 
 
